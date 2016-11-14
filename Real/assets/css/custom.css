@@ -1,1 +1,31 @@
-/* Write your custom CSS here */
+
+#fixed-header{
+	table-layout: fixed;
+	border-collapse: collapse;
+	display: block;
+	position: relative;
+	   width: 100%
+}
+/*thead tr{
+	
+    position: relative;
+}
+*/
+thead{
+	overflow-x: auto;
+	display: block;
+}
+th, td{
+	width: 33.3%;
+	text-align: center
+}
+
+tbody{
+	 
+	 display: block;
+    overflow: auto;
+    height: 300px;
+
+   
+
+}
